@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.slidingnav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#012E40;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 75px;
+}
+.slidingnav ul li a{
+    line-height: 1cm;
+    padding: 8px 8px 8px 45px;
+    font-family: Poppins;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-size: 13pt;
+}
+.slidingnav ul li a:hover{
+    background-color: #074963a9;
+    transition: 0.4s;
+}
+.slidingnav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.slidingnav ul li label{
+    font-size: 17pt;
+    font-family: poppins;
+    color: white;
+    margin-left: 0.4cm;
+    line-height: 2cm;
+}
+#instalogo{
+    font-size:larger;
+}
+#main{
+    transition: margin-left .5s;
+    padding: 20px;
+}
+@media screen and (max-height:450px) {
+    .slidingnav{padding-top: 15px;}
+    .slidingnav ul li a{font-size: 18px;}
+}
+
+#groupphoto{
+    border-radius: 2pt;
+    display: block;
+    margin: 0.5cm auto 0.5cm auto;
+    border: 10px solid transparent;
+    outline: 1px solid rgba(0, 0, 0, 0.411);
+}
+nav{
+    background-color: #026773;
+    height: 1.5in;
+    width: 100%;
+    text-align: center;
+}
+nav label a{
+    color: white;
+    font-family: montserrat;
+    font-variant: small-caps;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.5in;
+}
+#menu{
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 40px;
+    float: left;
+    margin: 1.3cm;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+#menu:hover{
+    transition: 0.4s;
+    background-color: #2d7a8bab;
+    color:white;
+}
+#list{
+    margin: 0.5cm;
+}
+#list li a{
+    text-transform: capitalize;
+    display: block;
+    font-family: roboto;
+    color: black;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14pt;
+}
+h2{
+    padding: 10px;
+    font-family: poppins;
+    text-transform: capitalize;
+    font-weight: 500; 
+    line-height: 1cm;  
+}
+.aligning{
+    display:flex;
+    align-items: center;
+}
+div div img{
+    padding: 10px;
+    border-radius: .5cm;
+}
+p{
+    margin-top: 0.5cm;
+    margin-left: 25px;
+    font-family:roboto;
+    font-size: 14pt;
+    text-indent: 0.5in;
+}
